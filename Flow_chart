@@ -1,0 +1,38 @@
++------------------------------------+
+|            Start                   |
++------------------------------------+
+|                                    |
+|   Enter the number of males        |
+|   (m_num)                          |
+|                                    |
++------------------------------------+
+|                                    |
+|   Enter the number of females      |
+|   (f_num)                          |
+|                                    |
++------------------------------------+
+|                                    |
+|   Add f_num and m_num               |
+|   Store the result in total         |
+|                                    |
++------------------------------------+
+|                                    |
+|   Calculate the percentage of      |
+|   males and females                 |
+|   Store the values in m_perc        |
+|   and f_perc respectively           |
+|                                    |
++------------------------------------+
+|                                    |
+|   Display the total, m_num, and     |
+|   f_num using print statements     |
+|                                    |
++------------------------------------+
+|                                    |
+|   Display the percentages of       |
+|   males and females using print     |
+|   statements                       |
+|                                    |
++------------------------------------+
+|            End                     |
++------------------------------------+
