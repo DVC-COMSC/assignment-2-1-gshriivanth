@@ -1,0 +1,18 @@
+####
+"""
+Shriivanth Gunanidhi
+Professor Lee
+COSMC-140
+24 June 2023
+
+Assignment 2-1 Essay
+
+Input/Output Description: There are two input statements in this program. Both m_num and f_num are variables that store the input of the number of males and females in the class. The input statements are converted into an integer by wrapping the input() function in the int() function.
+
+Explanation of All Variables: m_num and f_num are variables that store the input of the number of males and females respectively. They both store an integer value. 
+
+Flow chart: In the git hub repository for this assignment.
+
+Errors and Lessons: Although I experienced no problems with the mathematical portions of this program, I faced a lot with the formatting of the output. At first, I defined m_perc and f_perc as m_num / total and f_num / total. This meant that these variables were in decimal form at the beginning. Then in the print statement, I used the format identifier ‘.2%’ and formatted the percents as format(m_perc, ‘.2%’) and the same for f_perc. This allowed the code to run fine without any issues and the decimals were converted to percentages. However, when I typed pytest -rP into the terminal, I did not pass all the tests. I had to change the format identifier to ‘.2f’, but this meant that I had to change the m_perc and f_perc variables. I changed the variables by multiplying the original value by 100. I also attempted to convert the entire variable into a string with the str() function but this caused me to run into problems with the 2 decimal formatting in the print statement. In the end, I decided to concatenate a percent sign to the end of the formatted values in the print statement as “%”. Although this format wasn’t as good as my original format using the format identifier ‘.2%’, it was only a minor problem so I decided to overlook it.
+"""
+####
